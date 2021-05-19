@@ -1,11 +1,14 @@
 import Navbar from "./Navbar/Navbar";
-import { ReactComponent as BackgroundElements } from "../../assets/background.svg";
-import { ReactComponent as Circle } from "../../assets/Circle.svg";
+import Footer from "./Footer/Footer";
+import BackgroundElements from "./BackgroundElements/BackgroundElements";
+
 const Layout = (props) => {
   return (
     <>
       <Navbar />
       {props.children}
+      <Footer />
+      <BackgroundElements />
     </>
   );
 };

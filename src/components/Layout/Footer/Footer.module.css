@@ -1,0 +1,14 @@
+footer {
+  position: absolute;
+  width: 1111px;
+  height: 16px;
+  left: 165px;
+  top: 728px;
+}
+
+footer p {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: #8d7fbc;
+}

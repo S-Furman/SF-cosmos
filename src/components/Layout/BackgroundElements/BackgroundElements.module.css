@@ -1,0 +1,20 @@
+.rightCircle {
+  position: absolute;
+  right: 0;
+  top: 14.06%;
+  bottom: 40.83%;
+}
+
+.upperCircle {
+  position: absolute;
+  left: 33.61%;
+  right: 42.33%;
+  top: 0;
+}
+
+.leftCircle {
+  position: absolute;
+  left: 0%;
+  top: 41.93%;
+  bottom: 12.97%;
+}

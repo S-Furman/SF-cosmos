@@ -9,10 +9,10 @@ import Button from "../UI/Button/Button";
 const Illustration = () => {
   return (
     <div>
-      <img className={classes.planet} src={Planet} />
-      <img className={classes.rocket} src={Rocket} />
-      <img className={classes.smoke1} src={Smoke1} />
-      <img className={classes.smoke2} src={Smoke2} />
+      <img className={classes.planet} src={Planet} alt="planet" />
+      <img className={classes.rocket} src={Rocket} alt="rocket" />
+      <img className={classes.smoke1} src={Smoke1} alt="smoke1" />
+      <img className={classes.smoke2} src={Smoke2} alt="smoke2" />
       <Button>Launch Rocket!</Button>
     </div>
   );

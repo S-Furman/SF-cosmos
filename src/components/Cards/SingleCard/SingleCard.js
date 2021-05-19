@@ -1,7 +1,6 @@
 import classes from "./SingleCard.module.css";
 
 const SingleCard = (props) => {
-  console.log(props.imgPath);
   return (
     <div
       className={classes.singleCard}

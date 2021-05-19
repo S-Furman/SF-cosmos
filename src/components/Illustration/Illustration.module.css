@@ -1,0 +1,39 @@
+.illustrationContainer {
+  position: relative;
+  left: 57.64%;
+  right: 16.32%;
+  top: 11.98%;
+  bottom: 30.21%;
+}
+
+.planet {
+  position: absolute;
+  left: 57.64%;
+  right: 16.32%;
+  top: 21.35%;
+  bottom: 30.21%;
+}
+
+.rocket {
+  position: absolute;
+  left: 67.01%;
+  right: 25.9%;
+  top: 11.98%;
+  bottom: 69.79%;
+}
+
+.smoke2 {
+  position: absolute;
+  left: 63.68%;
+  right: 31.81%;
+  top: 22.66%;
+  bottom: 69.27%;
+}
+
+.smoke1 {
+  position: absolute;
+  left: 72.92%;
+  right: 23.47%;
+  top: 24.35%;
+  bottom: 69.14%;
+}

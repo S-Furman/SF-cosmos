@@ -1,0 +1,17 @@
+.btn {
+  background: #7860d7;
+  border-radius: 8px;
+  padding: 12px 32px;
+  color: white;
+  border: none;
+
+  position: absolute;
+  left: 64.31%;
+  right: 22.92%;
+  top: 72.92%;
+  bottom: 20.83%;
+}
+
+.btn:hover {
+  background: #05c9b7;
+}

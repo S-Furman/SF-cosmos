@@ -1,10 +1,14 @@
-import Layout from "";
+import Layout from "./components/Layout/Layout";
 import "./App.css";
+
+import Cards from "./components/Cards/Cards";
 
 function App() {
   return (
     <Layout>
-      <div className="App"></div>
+      <div className="App">
+        <Cards />
+      </div>
     </Layout>
   );
 }

@@ -1,0 +1,21 @@
+.singleCard {
+  display: inline-block;
+  vertical-align: top;
+  width: 160px;
+  height: 208px;
+  border-radius: 16px;
+  background-size: cover;
+  position: relative;
+  margin: 16px 15px;
+}
+
+.p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}

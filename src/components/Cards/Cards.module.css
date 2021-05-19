@@ -1,0 +1,8 @@
+.cardsContainer {
+  border: 1px solid red;
+  position: absolute;
+  width: 380px;
+  height: 480px;
+  left: 245px;
+  top: 144px;
+}

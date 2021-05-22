@@ -12,6 +12,7 @@
   width: 50%;
   height: 100%;
   color: white;
+  position: relative;
 }
 
 .status {
@@ -23,6 +24,10 @@
   background: #342a56;
   border-radius: 4px;
   text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a094c6;
 }
 
 .container::-webkit-scrollbar {
@@ -37,4 +42,21 @@
 
 .container {
   height: 240px;
+}
+
+.arrowUpDown {
+  position: absolute;
+  right: 16px;
+  top: 12px;
+}
+
+.typeP {
+  position: absolute;
+  top: 10px;
+  margin-left: 16px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #a094c6;
 }

@@ -20,24 +20,23 @@ const Cards = () => {
       imgPath: rockets,
     },
     {
-      title: "Details",
+      title: "Starlinks",
       imgPath: details,
     },
   ];
 
   return (
-    <div className={classes.cardsContainer}>
+    <article className={classes.cardsContainer}>
       {cards.map((singleCard, index) => {
         return (
           <SingleCard
             key={index}
             title={singleCard.title}
-            imgDesc={singleCard.imgDesc}
             imgPath={singleCard.imgPath}
           />
         );
       })}
-    </div>
+    </article>
   );
 };
 export default Cards;

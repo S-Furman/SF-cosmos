@@ -2,7 +2,6 @@
   margin: 16px auto;
   width: 492px;
   height: 40px;
-  background-color: red;
   color: white;
 }
 
@@ -26,7 +25,7 @@
   text-align: center;
 }
 
-/* .container::-webkit-scrollbar {
+.container::-webkit-scrollbar {
   width: 4px;
   height: 76px;
 }
@@ -34,9 +33,8 @@
 .container::-webkit-scrollbar-thumb {
   background: #53477d;
   border-radius: 8px;
-} */
+}
 
 .container {
-  border: 1px solid red;
   height: 240px;
 }

@@ -1,33 +1,27 @@
-import { useEffect, useState } from "react";
-import Button from "../../Button/Button";
 import classes from "./Header.module.css";
 
 import SingleRecord from "./SingleRecord/SingleRecord";
 
-const Header = () => {
-  const [fetchedData, setFetchedData] = useState([]);
-
-  useEffect(() => {
-    let url = "https://api.spacexdata.com/v4/capsules";
-
-    fetch(url)
-      .then((response) => response.json())
-      .then((data) => setFetchedData(data));
-  }, []);
-
+const Header = (props) => {
   return (
-    <div className={classes.header}>
+    <header className={classes.header}>
       <button className={classes.typeBtn}>Type</button>
       <p className={classes.status}>Status</p>
       <div
         className={classes.container}
         style={{ overflowX: "hidden", overflowY: "scroll" }}
       >
-        {fetchedData.map((p, index) => {
-          return <SingleRecord key={index} />;
+        {props.data.slice(0, 30).map((p, index) => {
+          return (
+            <SingleRecord
+              name={p[props.name]}
+              details={p[props.details]}
+              key={index}
+            />
+          );
         })}
       </div>
-    </div>
+    </header>
   );
 };
 

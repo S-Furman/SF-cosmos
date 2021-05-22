@@ -5,19 +5,19 @@ import { ModalContext } from "../../../../store/ModalContext";
 
 import classes from "./Headline.module.css";
 
-const Headline = () => {
+const Headline = (props) => {
   const modalCtx = useContext(ModalContext);
 
   return (
-    <header className={classes.headline}>
-      <p className={classes.headerTitle}>Starlink</p>
+    <div className={classes.headline}>
+      <p className={classes.headerTitle}>{props.title}</p>
       <img
         className={classes.exitIcon}
         onClick={modalCtx.changeVisibility}
         src={exitIcon}
         alt="exit icon"
       />
-    </header>
+    </div>
   );
 };
 

@@ -1,39 +1,73 @@
 .illustrationContainer {
-  position: relative;
+  position: absolute;
   left: 57.64%;
-  right: 16.32%;
-  top: 11.98%;
-  bottom: 30.21%;
+  top: 21.35%;
+  width: 375px;
+  height: 372px;
 }
 
 .planet {
   position: absolute;
-  left: 57.64%;
-  right: 16.32%;
-  top: 21.35%;
-  bottom: 30.21%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
 }
 
 .rocket {
   position: absolute;
-  left: 67.01%;
-  right: 25.9%;
-  top: 11.98%;
-  bottom: 69.79%;
+  left: 135px;
+  top: -72px;
+  z-index: 10;
 }
 
-.smoke2 {
+.landingGear {
   position: absolute;
-  left: 63.68%;
-  right: 31.81%;
-  top: 22.66%;
-  bottom: 69.27%;
+  top: 50px;
+  left: 152px;
 }
 
 .smoke1 {
   position: absolute;
-  left: 72.92%;
-  right: 23.47%;
-  top: 24.35%;
-  bottom: 69.14%;
+  left: 220px;
+  top: 23px;
+}
+
+.smoke2 {
+  position: absolute;
+  left: 87px;
+  top: 10px;
+}
+
+.enterActive {
+  opacity: 1;
+}
+.enterDone {
+  opacity: 0.1;
+  transition: opacity 300ms linear;
+}
+
+.exitActive {
+  opacity: 0.1;
+}
+
+.exitOut {
+  opacity: 0;
+  transition: opacity 300ms linear;
+}
+
+.launchEnterActive {
+  transform: translate(0, 0);
+}
+.launchEnterDone {
+  transform: translate(0, -400px);
+  transition: transform 300ms linear;
+}
+
+.launchExitActive {
+  transform: translate(0, -400px);
+}
+
+.launchExitOut {
+  transform: translate(0, 0);
+  transition: transform 300ms linear;
 }

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/SF-cosmos/static/css/main.c457a31a.chunk.css",
-    "main.js": "/SF-cosmos/static/js/main.83f59a28.chunk.js",
-    "main.js.map": "/SF-cosmos/static/js/main.83f59a28.chunk.js.map",
+    "main.css": "/SF-cosmos/static/css/main.2862de41.chunk.css",
+    "main.js": "/SF-cosmos/static/js/main.eb669f8c.chunk.js",
+    "main.js.map": "/SF-cosmos/static/js/main.eb669f8c.chunk.js.map",
     "runtime-main.js": "/SF-cosmos/static/js/runtime-main.38d5bb40.js",
     "runtime-main.js.map": "/SF-cosmos/static/js/runtime-main.38d5bb40.js.map",
-    "static/js/2.7c2bf0bf.chunk.js": "/SF-cosmos/static/js/2.7c2bf0bf.chunk.js",
-    "static/js/2.7c2bf0bf.chunk.js.map": "/SF-cosmos/static/js/2.7c2bf0bf.chunk.js.map",
+    "static/js/2.4f5ea2ee.chunk.js": "/SF-cosmos/static/js/2.4f5ea2ee.chunk.js",
+    "static/js/2.4f5ea2ee.chunk.js.map": "/SF-cosmos/static/js/2.4f5ea2ee.chunk.js.map",
     "static/js/3.fede63ff.chunk.js": "/SF-cosmos/static/js/3.fede63ff.chunk.js",
     "static/js/3.fede63ff.chunk.js.map": "/SF-cosmos/static/js/3.fede63ff.chunk.js.map",
     "index.html": "/SF-cosmos/index.html",
-    "static/css/main.c457a31a.chunk.css.map": "/SF-cosmos/static/css/main.c457a31a.chunk.css.map",
-    "static/js/2.7c2bf0bf.chunk.js.LICENSE.txt": "/SF-cosmos/static/js/2.7c2bf0bf.chunk.js.LICENSE.txt",
+    "static/css/main.2862de41.chunk.css.map": "/SF-cosmos/static/css/main.2862de41.chunk.css.map",
+    "static/js/2.4f5ea2ee.chunk.js.LICENSE.txt": "/SF-cosmos/static/js/2.4f5ea2ee.chunk.js.LICENSE.txt",
     "static/media/Icon Color.1e4b9463.svg": "/SF-cosmos/static/media/Icon Color.1e4b9463.svg",
     "static/media/Logo.a0d29abe.svg": "/SF-cosmos/static/media/Logo.a0d29abe.svg",
     "static/media/Path 106.e46b3f52.svg": "/SF-cosmos/static/media/Path 106.e46b3f52.svg",
@@ -26,6 +26,7 @@
     "static/media/capsules.70d7f74e.svg": "/SF-cosmos/static/media/capsules.70d7f74e.svg",
     "static/media/crew.3755e6a5.svg": "/SF-cosmos/static/media/crew.3755e6a5.svg",
     "static/media/details.75f21274.svg": "/SF-cosmos/static/media/details.75f21274.svg",
+    "static/media/ic16-import-export.2c19fce6.svg": "/SF-cosmos/static/media/ic16-import-export.2c19fce6.svg",
     "static/media/landing gear.1f3e6da7.svg": "/SF-cosmos/static/media/landing gear.1f3e6da7.svg",
     "static/media/leftCircle.06db1f7b.svg": "/SF-cosmos/static/media/leftCircle.06db1f7b.svg",
     "static/media/rightCircle.1b631783.svg": "/SF-cosmos/static/media/rightCircle.1b631783.svg",
@@ -34,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.38d5bb40.js",
-    "static/js/2.7c2bf0bf.chunk.js",
-    "static/css/main.c457a31a.chunk.css",
-    "static/js/main.83f59a28.chunk.js"
+    "static/js/2.4f5ea2ee.chunk.js",
+    "static/css/main.2862de41.chunk.css",
+    "static/js/main.eb669f8c.chunk.js"
   ]
 }

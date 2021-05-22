@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/SF-cosmos/static/css/main.6c9de40c.chunk.css",
+    "main.js": "/SF-cosmos/static/js/main.035c35d8.chunk.js",
+    "main.js.map": "/SF-cosmos/static/js/main.035c35d8.chunk.js.map",
+    "runtime-main.js": "/SF-cosmos/static/js/runtime-main.b79c13ce.js",
+    "runtime-main.js.map": "/SF-cosmos/static/js/runtime-main.b79c13ce.js.map",
+    "static/js/2.5018377c.chunk.js": "/SF-cosmos/static/js/2.5018377c.chunk.js",
+    "static/js/2.5018377c.chunk.js.map": "/SF-cosmos/static/js/2.5018377c.chunk.js.map",
+    "static/js/3.2bcf0bd1.chunk.js": "/SF-cosmos/static/js/3.2bcf0bd1.chunk.js",
+    "static/js/3.2bcf0bd1.chunk.js.map": "/SF-cosmos/static/js/3.2bcf0bd1.chunk.js.map",
+    "index.html": "/SF-cosmos/index.html",
+    "static/css/main.6c9de40c.chunk.css.map": "/SF-cosmos/static/css/main.6c9de40c.chunk.css.map",
+    "static/js/2.5018377c.chunk.js.LICENSE.txt": "/SF-cosmos/static/js/2.5018377c.chunk.js.LICENSE.txt",
+    "static/media/Icon Color.1e4b9463.svg": "/SF-cosmos/static/media/Icon Color.1e4b9463.svg",
+    "static/media/Logo.a0d29abe.svg": "/SF-cosmos/static/media/Logo.a0d29abe.svg",
+    "static/media/Path 106.e46b3f52.svg": "/SF-cosmos/static/media/Path 106.e46b3f52.svg",
+    "static/media/Path 107.7e4ed2e3.svg": "/SF-cosmos/static/media/Path 107.7e4ed2e3.svg",
+    "static/media/Path 108.9c1db7f0.svg": "/SF-cosmos/static/media/Path 108.9c1db7f0.svg",
+    "static/media/Path 109.7e4ed2e3.svg": "/SF-cosmos/static/media/Path 109.7e4ed2e3.svg",
+    "static/media/Path 110.e46b3f52.svg": "/SF-cosmos/static/media/Path 110.e46b3f52.svg",
+    "static/media/Planet.3dfe2663.svg": "/SF-cosmos/static/media/Planet.3dfe2663.svg",
+    "static/media/Rocket.714cbe96.svg": "/SF-cosmos/static/media/Rocket.714cbe96.svg",
+    "static/media/Smoke 1.40147cfb.svg": "/SF-cosmos/static/media/Smoke 1.40147cfb.svg",
+    "static/media/Smoke 2.504b6526.svg": "/SF-cosmos/static/media/Smoke 2.504b6526.svg",
+    "static/media/capsules.70d7f74e.svg": "/SF-cosmos/static/media/capsules.70d7f74e.svg",
+    "static/media/crew.3755e6a5.svg": "/SF-cosmos/static/media/crew.3755e6a5.svg",
+    "static/media/details.75f21274.svg": "/SF-cosmos/static/media/details.75f21274.svg",
+    "static/media/landing gear.1f3e6da7.svg": "/SF-cosmos/static/media/landing gear.1f3e6da7.svg",
+    "static/media/leftCircle.06db1f7b.svg": "/SF-cosmos/static/media/leftCircle.06db1f7b.svg",
+    "static/media/rightCircle.1b631783.svg": "/SF-cosmos/static/media/rightCircle.1b631783.svg",
+    "static/media/rockets.24649eeb.svg": "/SF-cosmos/static/media/rockets.24649eeb.svg",
+    "static/media/upperCircle.d226a7b0.svg": "/SF-cosmos/static/media/upperCircle.d226a7b0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b79c13ce.js",
+    "static/js/2.5018377c.chunk.js",
+    "static/css/main.6c9de40c.chunk.css",
+    "static/js/main.035c35d8.chunk.js"
+  ]
+}

@@ -6,7 +6,6 @@ import details from "../../assets/cards/details.svg";
 import classes from "./Cards.module.css";
 
 const Cards = () => {
-  console.log(Image);
   const cards = [
     {
       title: "Capsules",

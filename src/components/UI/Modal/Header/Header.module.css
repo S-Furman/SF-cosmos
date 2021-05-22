@@ -1,0 +1,42 @@
+.header {
+  margin: 16px auto;
+  width: 492px;
+  height: 40px;
+  background-color: red;
+  color: white;
+}
+
+.typeBtn {
+  border: none;
+  background: #251d42;
+  border-radius: 4px;
+  width: 50%;
+  height: 100%;
+  color: white;
+}
+
+.status {
+  display: inline;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 100%;
+  width: 50%;
+  background: #342a56;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* .container::-webkit-scrollbar {
+  width: 4px;
+  height: 76px;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: #53477d;
+  border-radius: 8px;
+} */
+
+.container {
+  border: 1px solid red;
+  height: 240px;
+}

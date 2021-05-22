@@ -1,0 +1,23 @@
+.headline {
+  width: 492px;
+  margin: 20px 24px 16px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.exitIcon:hover {
+  cursor: pointer;
+}
+
+.headerTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.exitIcon {
+  position: absolute;
+  right: 29px;
+  top: 29px;
+}

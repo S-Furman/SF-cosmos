@@ -1,3 +1,7 @@
+.container {
+  position: relative;
+}
+
 .singleCard {
   display: inline-block;
   vertical-align: top;
@@ -7,6 +11,16 @@
   background-size: cover;
   position: relative;
   margin: 16px 15px;
+  cursor: pointer;
+}
+
+.hovering {
+  background: linear-gradient(
+    0deg,
+    rgba(43, 34, 74, 0.92) 7.69%,
+    rgba(70, 58, 113, 0.92) 100%
+  );
+  backdrop-filter: blur(4px);
 }
 
 .p {

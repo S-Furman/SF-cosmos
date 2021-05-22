@@ -1,9 +1,9 @@
-import exitIcon from "../../../../assets/icons/Icon Color.svg";
 import { useContext } from "react";
-
 import { ModalContext } from "../../../../store/ModalContext";
 
 import classes from "./Headline.module.css";
+
+import exitIcon from "../../../../assets/icons/Icon Color.svg";
 
 const Headline = (props) => {
   const modalCtx = useContext(ModalContext);

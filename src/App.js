@@ -1,11 +1,10 @@
-import Layout from "./components/Layout/Layout";
-import "./App.css";
+import { useContext } from "react";
+import { ModalContext } from "./store/ModalContext";
 
 import Cards from "./components/Cards/Cards";
 import Illustration from "./components/Illustration/Illustration";
 import Modal from "./components/UI/Modal/Modal";
-import ModalContextProvider, { ModalContext } from "./store/ModalContext";
-import { useContext } from "react";
+import Layout from "./components/Layout/Layout";
 
 function App() {
   const modalCtx = useContext(ModalContext);

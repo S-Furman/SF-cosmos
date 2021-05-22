@@ -1,3 +1,4 @@
+import { useEffect, useState, useRef } from "react";
 import classes from "./Illustration.module.css";
 
 import { CSSTransition } from "react-transition-group";
@@ -8,20 +9,17 @@ import Smoke1 from "../../assets/illustration/Smoke 1.svg";
 import Smoke2 from "../../assets/illustration/Smoke 2.svg";
 import LandingGear from "../../assets/illustration/landing gear.svg";
 import Button from "../UI/Button/Button";
-import { useEffect, useState, useRef } from "react";
 
 const Illustration = () => {
   const [launchRocket, setLaunchRocket] = useState(false);
+  const firstAnimation = useRef(null);
+  const secondAnimation = useRef(null);
 
   useEffect(() => {
-    console.log(launchRocket);
     setTimeout(() => {
       setLaunchRocket(false);
     }, 1000);
   }, [launchRocket]);
-
-  const firstAnimation = useRef(null);
-  const secondAnimation = useRef(null);
 
   return (
     <>
@@ -43,10 +41,11 @@ const Illustration = () => {
             <img
               className={classes.landingGear}
               src={LandingGear}
-              alt="landingGear"
+              alt="landing Gear"
             />
           </div>
         </CSSTransition>
+
         <CSSTransition
           in={launchRocket}
           timeout={300}
@@ -59,8 +58,8 @@ const Illustration = () => {
           nodeRef={secondAnimation}
         >
           <div ref={secondAnimation}>
-            <img className={classes.smoke1} src={Smoke1} alt="smoke1" />
-            <img className={classes.smoke2} src={Smoke2} alt="smoke2" />
+            <img className={classes.smoke1} src={Smoke1} alt="1st smoke" />
+            <img className={classes.smoke2} src={Smoke2} alt="2nd smoke" />
           </div>
         </CSSTransition>
 

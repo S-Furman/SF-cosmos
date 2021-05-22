@@ -5,10 +5,10 @@ import BackgroundElements from "./BackgroundElements/BackgroundElements";
 const Layout = (props) => {
   return (
     <>
+      <BackgroundElements />
       <Navbar />
       {props.children}
       <Footer />
-      <BackgroundElements />
     </>
   );
 };

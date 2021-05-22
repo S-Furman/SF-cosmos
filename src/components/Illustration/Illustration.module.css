@@ -42,12 +42,12 @@
   opacity: 1;
 }
 .enterDone {
-  opacity: 0.1;
+  opacity: 0;
   transition: opacity 300ms linear;
 }
 
 .exitActive {
-  opacity: 0.1;
+  opacity: 0;
 }
 
 .exitOut {

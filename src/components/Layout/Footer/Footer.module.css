@@ -1,12 +1,15 @@
 footer {
   position: absolute;
-  width: 1111px;
+  width: 80%;
   height: 16px;
+  bottom: 24px;
   left: 165px;
-  top: 728px;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer p {
+  margin: 0;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.4px;

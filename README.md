@@ -8,9 +8,9 @@ https://s-furman.github.io/SF-cosmos/
 
 ```
 
-$ git clone https://github.com/S-Furman/Space-App.git
+$ git clone https://github.com/S-Furman/SF-cosmos.git
 
-$ cd Space-App
+$ cd sf-cosmos
 
 $npm install
 
